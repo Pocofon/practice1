@@ -1,0 +1,731 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container{
+    margin: 0px 165px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.header{
+    background-image: url(bg.jpg);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-bar{
+    display: none;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.35s linear;
+}
+
+.nav a:hover{
+    color: rgb(174, 25, 25);
+}
+
+.cart{
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+    margin-right: 31px;
+    margin-left: 36px;
+
+}
+
+.cart-img{
+    position: absolute;
+    top: 18px;
+    right: 21px;
+}
+
+.number a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.2s;
+    margin-left: 8px;
+}
+
+.number a:hover{
+    color: red;
+}
+
+.phone-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-holder{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+    margin-left: 45px;
+}
+
+.button:hover{
+    background-color: #a2510f;    
+}
+
+.header-down{
+    position: relative;
+    left: 65px;
+}
+
+.header-title{
+    position: absolute;
+    left: 0;
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.header-subtitle{
+    font-size: 80px;
+}
+
+.header-suptitle{
+    padding-top: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.header-suptitle::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    left: 85px;
+    top: 172px;
+}
+.header-suptitle::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    left: 338px;
+    top: 172px;
+}
+
+.header-button{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #FF7400;
+    margin-top: 21px;
+    padding: 14px 27px;
+    transition: 0.3s;
+}
+
+.header-button:hover{
+    background-color: #a2510f;    
+}
+
+.cards-menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 138px;
+}
+
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 328px;
+    width: 349px;
+    margin-top: -235px;
+    background-color: #fff;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 35px;
+    margin-left: 31px;
+}
+
+.card-title{
+    color: #2C2C2C;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.card-title span{
+    color: #BC9060;
+}
+
+.card-subtitle{
+    text-align: center;
+    color: #656363;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 166px;
+}
+
+.history-title{
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 54px;
+}
+
+.history-title span{
+    color: #D67E34;
+}
+
+.history-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #656363;
+}
+
+.history-num {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 444px;
+    padding-top: 79px;
+    padding-bottom: 182px;
+}
+.history-num div{
+    padding-right: 41px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+.history-num div span{
+    color: #BC9060;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.history-img{
+    position: relative;
+}
+
+.images-3{
+    position: absolute;
+    top: 188px;
+    left: -202px;
+    z-index: 999;
+}
+
+.images-1{
+    position: absolute;
+    top: 346px;
+    left: 95px;
+    z-index: 999;
+}
+
+.images-2{
+    padding-top: 151px;
+    padding-right: 200px;
+}
+
+.bisness{
+    background-image: url(bisness-lanch.jpg);
+    background-size: cover;
+    height: 357px;
+}
+
+.bisness-wrap{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bisness-title{
+    color: #D67E34;
+    font-size: 52px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    width: 601px;
+}
+
+.bisness-subtitle{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.dishes{
+    margin-top: 132px;
+}
+
+.dishes-title{
+    color: #000;
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+
+.dishes-title span{
+    color: #D67E34;
+}
+
+.dishes-holder{
+    display: flex;
+    justify-content: center;
+    margin-top: 143px;
+    margin-bottom: 150px;
+}
+
+.dishes-pizza{
+    margin-right: 30px;
+}
+
+.dishes-burger-item{
+    display: flex;
+    align-items: center;
+}
+
+.dishes-burger-item img{
+    margin-right: 20px;
+}
+
+.dbi-bottom{
+    margin-bottom: 29px;
+}
+
+.humburger-menu{
+    background-image: url(bg-menu.png);
+    height: 1034px;
+    background-size: cover;
+}
+
+.humburger-title-p{
+    color: #fff;
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 5px 5px #03030322;
+
+}
+
+.card-menu{
+    height: 510px;
+    width: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-right: 30px;
+}
+
+.card-menu-img{
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card-menu-holder{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circule-shadowbox{
+    position: absolute;
+    top: 205px;
+    left: 192px;
+    height: 80px;
+    width: 80px;
+    background-color: #D67E34;
+    z-index: 3;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.circule-shadowbox span{
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+}
+
+.card-menu-title{
+    padding-top: 327px;
+    padding-bottom: 17px;
+    color: #000;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+
+.card-menu-subtitle{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.button-menu{
+    background-color: #D67E34;
+    padding: 14px 68px;
+    font-size: 16px;
+    font-family: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 138px;
+}
+
+.recommended{
+    position: absolute;
+    left: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 7px;
+    padding-left: 12px;
+    padding-bottom: 11px;
+    padding-right: 11px;
+    background-color: #D67E34;
+
+}
+
+.comments{
+    text-align: center;
+    margin: 0px 260px;
+    margin-top: 104px;
+    margin-bottom: 139px;
+}
+
+.comments p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.comments-img{
+    border-radius: 50%;
+}
+
+.users p{
+    color:#000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 16px;
+    margin-bottom: 9px;
+    font-style: normal;
+}
+
+.users span{
+    padding-top: 9px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.comments-page{
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 21px;
+    margin-left: 50%;
+}
+
+.comments-one , .comments-two{
+    height: 5px;
+    width: 5px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+
+}
+
+.comments-three{
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px  solid #FF7400 ;
+}
+
+.gallery-dish{
+    margin-top: 208px;
+    position: relative;
+}
+
+.block-red-left{
+    position: absolute;
+    top: 137px;
+    width: 30px;
+    height: 100px;
+    background-color: #FF0000;
+}
+
+.block-red-right{
+    position: absolute;
+    right: 0px;
+    top: 137px;
+    width: 30px;
+    height: 100px;
+    background-color: #FF0000;
+}
+
+.gallery-dish-title{
+    padding-bottom: 60px;
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    color: #000;
+    text-align: center;
+}
+
+.gallery-dish-title span{
+    color: #D67E34;
+}
+
+.gallery-dish-holder{
+    text-align: center;
+}
+
+.gallery-dish-holder img{
+    margin: 15px;
+}
+
+.cooks{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cooks-title{
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    color: #000;
+    text-align: center;
+}
+
+.cooks-title span{
+    color: #D67E34;
+}
+
+.cooks-photo{
+    text-align: center;
+    margin-top: 107px;
+}
+
+.cooks-photo img{
+    padding-right: 32px;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+@media  (max-width: 1420px){
+
+    .history{
+        display: flex;
+        justify-content: center;
+    }
+
+    .history-img{
+        display: none;
+    }
+
+    .history-info{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:1330px){
+    .visual{
+        display: none;
+    }
+
+    .card-menu{
+        margin: 0;
+    }
+
+    .dishes-holder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:1216px){
+    .header-line{
+        display: none;
+    }
+
+    .header-suptitle::after,.header-suptitle::before{
+        display: none;
+    }
+
+    .header-down{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+    }
+
+    .header-down-center{
+        padding-top: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-bar{
+        display: block;
+    }
+}
+
+@media (max-width:1155px){
+
+        .cards{
+            padding-top: 0px;
+        }
+
+        .card-holder{
+            display: block;
+        }
+
+        .card{
+            margin-top: 20px;
+            min-height: 290px;
+            min-width: 276px;
+        }
+
+        .cooks-photo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+        }
+
+        .cooks{
+            margin: 0;
+        }
+
+        .cooks-photo img{
+            padding-bottom: 20px;
+        }
+
+        .bisness-wrap{
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .bisness-title{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .bisness-subtitle{
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 51px;
+        }
+
+        .block-red-left , .block-red-right{
+            display: none;
+        }
+}
+
+@media(max-width: 734px){
+    .sss{
+        width: 274px;
+    }
+}
